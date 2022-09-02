@@ -1,6 +1,6 @@
-import addressUtils from "../../utils/addressUtils";
+import addressUtils from "../utils/addressUtils";
 import hre, { ethers } from "hardhat";
-import { Multicall__factory } from "../../typechain-types";
+import { Multicall__factory } from "../typechain";
 
 export async function deployMulticall() {
   const Multicall = (await ethers.getContractFactory(
