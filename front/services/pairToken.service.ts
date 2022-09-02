@@ -11,7 +11,7 @@ import { formatEther, parseEther } from "ethers/lib/utils";
 // const bankContract = tenXBankContract(ADDRESS_LIST["TenXBank"]);
 
 // total lenght
-const factoryContract: PancakeFactory = pancakeFactoryContract(ADDRESS_LIST["FACTORY"])
+const factoryContract = pancakeFactoryContract(ADDRESS_LIST["FACTORY"])
 // loop get All address
 
 
