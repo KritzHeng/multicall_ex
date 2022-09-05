@@ -1,15 +1,16 @@
 import type { NextPage } from 'next'
+import Homemodule from '../components/Homemodule';
 
-import { pairLength } from '../services/pairToken.service';
 
+// const Home = async() => {
+  
 const Home: NextPage = () => {
 
-  //  bankService.pairLength()
-  pairLength()
   return (
-    <div >
-      hi
-    </div>
+    <>
+      <Homemodule/>
+    </>
+
   )
 }
 
